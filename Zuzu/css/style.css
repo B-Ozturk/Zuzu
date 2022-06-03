@@ -1,0 +1,69 @@
+body, html, input, textarea {
+  font-family: arial, sans-serif;
+}
+
+.baner{
+  color: 1px solid black;
+  background-color: #d38449;
+}
+
+/* Form voor bestelling */
+#orderform {
+  margin-left: 730px;
+  background-color:#f3bf68;
+  background-size: cover;
+  color:rgb(0, 0, 0);
+  border-radius:10px;
+  height:auto;
+  width:500px;
+}
+#orderform h1 { margin: 0; }
+#orderform label, #orderform input, #orderform textarea {
+  width: 210px;
+  margin: 10px 10px auto;
+ 
+}
+#orderform input[type=submit] {
+  margin-top: -10px;
+  margin-left: 10px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 10%;
+  position: relative;
+}
+
+.opties{
+  margin-left: 100px;
+}
+
+/*Notificatie bar*/
+.notify {
+  background: #d38449;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: -10px;
+  border-color: 1px black;
+  text-align: center;
+  font-size: xx-large;
+}
+
+/*Tabel met sushi en prijzen*/
+table{
+  border-collapse: collapse;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #d9976a;
+  margin-left: 755px;
+}
+
+td{
+  border: 1px solid #fff;
+  width: 100px
+}
+
+body{
+  background-image: url("../bg.jpg");
+  background-size: cover;   
+}
